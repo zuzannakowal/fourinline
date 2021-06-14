@@ -1,0 +1,78 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+
+}
+
+#root2{
+  height: 20%;
+  width: 300px;
+  background-color: gray;
+  position: absolute;
+  margin: 0 auto;
+  padding: 0;
+  border: black auto 1px;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root3{
+  height: 80%;
+  width: 300px;
+  background-color: cornflowerblue;
+  position: absolute;
+  margin: 0 auto;
+  padding: 0;
+  border: black auto 1px;
+  left: 0;
+  bottom: 0;
+  display: none;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+#form{
+  height: 50px;
+  width: 300px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  margin-left: 7pxx;
+}
+
+#login{
+  height: 20px;
+  width: 160px;
+  font-size: 18px;
+}
+
+#player{
+  width: 200px;
+  padding-left: 20px;
+}
+
+#reset2{
+  display: block;
+  width: 200px;
+  visibility: hidden;
+}
+
+#zaloguj, #reset{
+  font-size: 18px;
+}
+
+table{
+  font-size: 20px;
+
+}
+th, td{
+  width: 80px;
+  text-align: center;
+}
