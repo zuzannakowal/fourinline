@@ -1,6 +1,7 @@
 var http = require("http");
 var qs = require("querystring");
 var fs = require("fs");
+const PORT = process.env.PORT || 3000;
 
 var users = []
 
@@ -269,4 +270,4 @@ function ponownie(response) {
   response.end("jest ok");
 }
 
-server.listen(3000);
+server.listen(PORT);
