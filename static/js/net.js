@@ -43,6 +43,7 @@ class Net {
             case "brak miejsc":
               $("#form").css("display", "none")
               $("#player").text(data)
+              $("#reset2").css("visibility", "visible")
               break;
             default:
 
